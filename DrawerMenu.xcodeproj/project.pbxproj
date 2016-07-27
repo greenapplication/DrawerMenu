@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72C5A5F61D251EB70073D834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A5F51D251EB70073D834 /* AppDelegate.swift */; };
+		72C5A5FB1D251EB70073D834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C5A5F91D251EB70073D834 /* Main.storyboard */; };
+		72C5A5FE1D251EB70073D834 /* DrawerMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A5FC1D251EB70073D834 /* DrawerMenu.xcdatamodeld */; };
+		72C5A6001D251EB70073D834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C5A5FF1D251EB70073D834 /* Assets.xcassets */; };
+		72C5A6031D251EB70073D834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C5A6011D251EB70073D834 /* LaunchScreen.storyboard */; };
+		72C5A6161D251F610073D834 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A60E1D251F610073D834 /* MMDrawerBarButtonItem.m */; };
+		72C5A6171D251F610073D834 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A6111D251F610073D834 /* MMDrawerController.m */; };
+		72C5A6181D251F610073D834 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A6131D251F610073D834 /* MMDrawerVisualState.m */; };
+		72C5A6191D251F610073D834 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A6151D251F610073D834 /* UIViewController+MMDrawerController.m */; };
+		72C5A61B1D2522520073D834 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A61A1D2522520073D834 /* HomeVC.swift */; };
+		72C5A61D1D2522700073D834 /* LeftDrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C5A61C1D2522700073D834 /* LeftDrawerVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72C5A5F21D251EB70073D834 /* DrawerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C5A5F51D251EB70073D834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72C5A5FA1D251EB70073D834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72C5A5FD1D251EB70073D834 /* DrawerMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawerMenu.xcdatamodel; sourceTree = "<group>"; };
+		72C5A5FF1D251EB70073D834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72C5A6021D251EB70073D834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72C5A6041D251EB70073D834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C5A60A1D251F060073D834 /* DrawerMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawerMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		72C5A60D1D251F610073D834 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		72C5A60E1D251F610073D834 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		72C5A60F1D251F610073D834 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		72C5A6101D251F610073D834 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		72C5A6111D251F610073D834 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		72C5A6121D251F610073D834 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		72C5A6131D251F610073D834 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		72C5A6141D251F610073D834 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		72C5A6151D251F610073D834 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		72C5A61A1D2522520073D834 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		72C5A61C1D2522700073D834 /* LeftDrawerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftDrawerVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72C5A5EF1D251EB70073D834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72C5A5E91D251EB60073D834 = {
+			isa = PBXGroup;
+			children = (
+				72C5A5F41D251EB70073D834 /* DrawerMenu */,
+				72C5A5F31D251EB70073D834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72C5A5F31D251EB70073D834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C5A5F21D251EB70073D834 /* DrawerMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C5A5F41D251EB70073D834 /* DrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				72C5A60C1D251F610073D834 /* MMDrawerController */,
+				72C5A5F51D251EB70073D834 /* AppDelegate.swift */,
+				72C5A61C1D2522700073D834 /* LeftDrawerVC.swift */,
+				72C5A61A1D2522520073D834 /* HomeVC.swift */,
+				72C5A5F91D251EB70073D834 /* Main.storyboard */,
+				72C5A5FF1D251EB70073D834 /* Assets.xcassets */,
+				72C5A6011D251EB70073D834 /* LaunchScreen.storyboard */,
+				72C5A6041D251EB70073D834 /* Info.plist */,
+				72C5A5FC1D251EB70073D834 /* DrawerMenu.xcdatamodeld */,
+				72C5A60A1D251F060073D834 /* DrawerMenu-Bridging-Header.h */,
+			);
+			path = DrawerMenu;
+			sourceTree = "<group>";
+		};
+		72C5A60C1D251F610073D834 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				72C5A60D1D251F610073D834 /* MMDrawerBarButtonItem.h */,
+				72C5A60E1D251F610073D834 /* MMDrawerBarButtonItem.m */,
+				72C5A60F1D251F610073D834 /* MMDrawerController+Subclass.h */,
+				72C5A6101D251F610073D834 /* MMDrawerController.h */,
+				72C5A6111D251F610073D834 /* MMDrawerController.m */,
+				72C5A6121D251F610073D834 /* MMDrawerVisualState.h */,
+				72C5A6131D251F610073D834 /* MMDrawerVisualState.m */,
+				72C5A6141D251F610073D834 /* UIViewController+MMDrawerController.h */,
+				72C5A6151D251F610073D834 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72C5A5F11D251EB70073D834 /* DrawerMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C5A6071D251EB70073D834 /* Build configuration list for PBXNativeTarget "DrawerMenu" */;
+			buildPhases = (
+				72C5A5EE1D251EB70073D834 /* Sources */,
+				72C5A5EF1D251EB70073D834 /* Frameworks */,
+				72C5A5F01D251EB70073D834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawerMenu;
+			productName = DrawerMenu;
+			productReference = 72C5A5F21D251EB70073D834 /* DrawerMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72C5A5EA1D251EB70073D834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.mls;
+				TargetAttributes = {
+					72C5A5F11D251EB70073D834 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 72C5A5ED1D251EB70073D834 /* Build configuration list for PBXProject "DrawerMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72C5A5E91D251EB60073D834;
+			productRefGroup = 72C5A5F31D251EB70073D834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72C5A5F11D251EB70073D834 /* DrawerMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72C5A5F01D251EB70073D834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C5A6031D251EB70073D834 /* LaunchScreen.storyboard in Resources */,
+				72C5A6001D251EB70073D834 /* Assets.xcassets in Resources */,
+				72C5A5FB1D251EB70073D834 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72C5A5EE1D251EB70073D834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C5A6181D251F610073D834 /* MMDrawerVisualState.m in Sources */,
+				72C5A61B1D2522520073D834 /* HomeVC.swift in Sources */,
+				72C5A6191D251F610073D834 /* UIViewController+MMDrawerController.m in Sources */,
+				72C5A6171D251F610073D834 /* MMDrawerController.m in Sources */,
+				72C5A6161D251F610073D834 /* MMDrawerBarButtonItem.m in Sources */,
+				72C5A5F61D251EB70073D834 /* AppDelegate.swift in Sources */,
+				72C5A61D1D2522700073D834 /* LeftDrawerVC.swift in Sources */,
+				72C5A5FE1D251EB70073D834 /* DrawerMenu.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72C5A5F91D251EB70073D834 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C5A5FA1D251EB70073D834 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72C5A6011D251EB70073D834 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72C5A6021D251EB70073D834 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72C5A6051D251EB70073D834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72C5A6061D251EB70073D834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72C5A6081D251EB70073D834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DrawerMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindlogic.app.DrawerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawerMenu/DrawerMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72C5A6091D251EB70073D834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DrawerMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindlogic.app.DrawerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawerMenu/DrawerMenu-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72C5A5ED1D251EB70073D834 /* Build configuration list for PBXProject "DrawerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C5A6051D251EB70073D834 /* Debug */,
+				72C5A6061D251EB70073D834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C5A6071D251EB70073D834 /* Build configuration list for PBXNativeTarget "DrawerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C5A6081D251EB70073D834 /* Debug */,
+				72C5A6091D251EB70073D834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72C5A5FC1D251EB70073D834 /* DrawerMenu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72C5A5FD1D251EB70073D834 /* DrawerMenu.xcdatamodel */,
+			);
+			currentVersion = 72C5A5FD1D251EB70073D834 /* DrawerMenu.xcdatamodel */;
+			path = DrawerMenu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72C5A5EA1D251EB70073D834 /* Project object */;
+}
